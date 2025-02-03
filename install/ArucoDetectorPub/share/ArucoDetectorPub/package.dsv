@@ -1,0 +1,9 @@
+source;share/ArucoDetectorPub/hook/pythonpath.ps1
+source;share/ArucoDetectorPub/hook/pythonpath.dsv
+source;share/ArucoDetectorPub/hook/pythonpath.sh
+source;share/ArucoDetectorPub/hook/ament_prefix_path.ps1
+source;share/ArucoDetectorPub/hook/ament_prefix_path.dsv
+source;share/ArucoDetectorPub/hook/ament_prefix_path.sh
+source;../../build/ArucoDetectorPub/share/ArucoDetectorPub/hook/pythonpath_develop.ps1
+source;../../build/ArucoDetectorPub/share/ArucoDetectorPub/hook/pythonpath_develop.dsv
+source;../../build/ArucoDetectorPub/share/ArucoDetectorPub/hook/pythonpath_develop.sh

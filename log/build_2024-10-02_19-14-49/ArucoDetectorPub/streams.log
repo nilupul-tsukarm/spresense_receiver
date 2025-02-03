@@ -1,0 +1,35 @@
+[10.547s] Invoking command in '/home/ns/ros2_ws/build/ArucoDetectorPub': PYTHONPATH=/home/ns/ros2_ws/build/ArucoDetectorPub/prefix_override:/home/ns/ros2_ws/install/ArucoDetectorPub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ns/ros2_ws/build/ArucoDetectorPub/build
+[12.619s] running develop
+[12.621s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[12.622s]   warnings.warn(
+[12.629s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.630s]   warnings.warn(
+[14.165s] Removing /home/ns/ros2_ws/install/ArucoDetectorPub/lib/python3.10/site-packages/ArucoDetectorPub.egg-link (link to .)
+[14.425s] Invoked command in '/home/ns/ros2_ws/build/ArucoDetectorPub' returned '0': PYTHONPATH=/home/ns/ros2_ws/build/ArucoDetectorPub/prefix_override:/home/ns/ros2_ws/install/ArucoDetectorPub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ns/ros2_ws/build/ArucoDetectorPub/build
+[14.435s] Invoking command in '/home/ns/ros2_ws/src/ArucoDetectorPub': PYTHONPATH=/home/ns/ros2_ws/build/ArucoDetectorPub/prefix_override:/home/ns/ros2_ws/install/ArucoDetectorPub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ArucoDetectorPub build --build-base /home/ns/ros2_ws/build/ArucoDetectorPub/build install --record /home/ns/ros2_ws/build/ArucoDetectorPub/install.log --single-version-externally-managed
+[16.476s] running egg_info
+[16.481s] writing ../../build/ArucoDetectorPub/ArucoDetectorPub.egg-info/PKG-INFO
+[16.483s] writing dependency_links to ../../build/ArucoDetectorPub/ArucoDetectorPub.egg-info/dependency_links.txt
+[16.485s] writing entry points to ../../build/ArucoDetectorPub/ArucoDetectorPub.egg-info/entry_points.txt
+[16.487s] writing requirements to ../../build/ArucoDetectorPub/ArucoDetectorPub.egg-info/requires.txt
+[16.489s] writing top-level names to ../../build/ArucoDetectorPub/ArucoDetectorPub.egg-info/top_level.txt
+[16.500s] reading manifest file '../../build/ArucoDetectorPub/ArucoDetectorPub.egg-info/SOURCES.txt'
+[16.507s] writing manifest file '../../build/ArucoDetectorPub/ArucoDetectorPub.egg-info/SOURCES.txt'
+[16.508s] running build
+[16.509s] running build_py
+[16.510s] creating /home/ns/ros2_ws/build/ArucoDetectorPub/build
+[16.512s] creating /home/ns/ros2_ws/build/ArucoDetectorPub/build/lib
+[16.513s] creating /home/ns/ros2_ws/build/ArucoDetectorPub/build/lib/ArucoDetectorPub
+[16.516s] copying ArucoDetectorPub/__init__.py -> /home/ns/ros2_ws/build/ArucoDetectorPub/build/lib/ArucoDetectorPub
+[16.517s] running install
+[16.518s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[16.519s]   warnings.warn(
+[16.520s] running install_lib
+[16.520s] creating /home/ns/ros2_ws/install/ArucoDetectorPub/lib/python3.10/site-packages/ArucoDetectorPub
+[16.521s] copying /home/ns/ros2_ws/build/ArucoDetectorPub/build/lib/ArucoDetectorPub/__init__.py -> /home/ns/ros2_ws/install/ArucoDetectorPub/lib/python3.10/site-packages/ArucoDetectorPub
+[16.523s] byte-compiling /home/ns/ros2_ws/install/ArucoDetectorPub/lib/python3.10/site-packages/ArucoDetectorPub/__init__.py to __init__.cpython-310.pyc
+[16.525s] running install_data
+[16.530s] running install_egg_info
+[16.543s] Copying ../../build/ArucoDetectorPub/ArucoDetectorPub.egg-info to /home/ns/ros2_ws/install/ArucoDetectorPub/lib/python3.10/site-packages/ArucoDetectorPub-0.0.0-py3.10.egg-info
+[16.553s] running install_scripts
+[16.702s] writing list of installed files to '/home/ns/ros2_ws/build/ArucoDetectorPub/install.log'

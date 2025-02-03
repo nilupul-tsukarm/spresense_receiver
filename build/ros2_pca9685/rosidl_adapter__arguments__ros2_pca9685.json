@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_pca9685",
+  "non_idl_tuples": [
+    "/home/ns/ros2_ws/src/ros2_pca9685:srv/SetPwm.srv"
+  ]
+}

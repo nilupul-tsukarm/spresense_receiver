@@ -1,0 +1,27 @@
+[10.057s] Invoking command in '/home/ns/ros2_ws/build/py_pubsub': PYTHONPATH=/home/ns/ros2_ws/build/py_pubsub/prefix_override:/home/ns/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ns/ros2_ws/build/py_pubsub/build --no-deps install_data
+[13.310s] running develop
+[13.312s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[13.314s]   warnings.warn(
+[13.323s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.324s]   warnings.warn(
+[15.584s] running egg_info
+[15.585s] creating py_pubsub.egg-info
+[15.590s] writing py_pubsub.egg-info/PKG-INFO
+[15.604s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[15.610s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[15.612s] writing requirements to py_pubsub.egg-info/requires.txt
+[15.613s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[15.614s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[15.627s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[15.636s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[15.664s] running build_ext
+[15.666s] Creating /home/ns/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[15.678s] 
+[15.680s] Installed /home/ns/ros2_ws/build/py_pubsub
+[15.682s] running install_data
+[15.683s] creating /home/ns/ros2_ws/install/py_pubsub/share/ament_index
+[15.685s] creating /home/ns/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[15.687s] creating /home/ns/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[15.696s] copying resource/py_pubsub -> /home/ns/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[15.716s] copying package.xml -> /home/ns/ros2_ws/install/py_pubsub/share/py_pubsub
+[16.324s] Invoked command in '/home/ns/ros2_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/ns/ros2_ws/build/py_pubsub/prefix_override:/home/ns/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ns/ros2_ws/build/py_pubsub/build --no-deps install_data

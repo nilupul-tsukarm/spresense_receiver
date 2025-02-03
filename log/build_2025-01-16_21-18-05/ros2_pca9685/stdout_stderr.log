@@ -1,0 +1,252 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ns/ros2_ws/build/ros2_pca9685
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_ros2_pca9685
+[  8%] [32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_generator_c.dir/rosidl_generator_c/ros2_pca9685/srv/detail/set_pwm__functions.c.o[0m
+[  8%] Built target ros2_pca9685__cpp
+[ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+running egg_info
+creating ros2_pca9685.egg-info
+writing ros2_pca9685.egg-info/PKG-INFO
+writing dependency_links to ros2_pca9685.egg-info/dependency_links.txt
+writing top-level names to ros2_pca9685.egg-info/top_level.txt
+writing manifest file 'ros2_pca9685.egg-info/SOURCES.txt'
+reading manifest file 'ros2_pca9685.egg-info/SOURCES.txt'
+writing manifest file 'ros2_pca9685.egg-info/SOURCES.txt'
+[ 17%] [32m[1mLinking C shared library libros2_pca9685__rosidl_generator_c.so[0m
+[ 17%] Built target ament_cmake_python_build_ros2_pca9685_egg
+[ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 20%] Built target ros2_pca9685__rosidl_generator_c
+[ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ros2_pca9685__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_pca9685/srv/set_pwm__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/ros2_pca9685__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_pca9685/srv/detail/dds_fastrtps/set_pwm__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ros2_pca9685__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_pca9685/srv/detail/set_pwm__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/ros2_pca9685__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pca9685/srv/detail/set_pwm__type_support_c.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library libros2_pca9685__rosidl_typesupport_cpp.so[0m
+[ 37%] Built target ros2_pca9685__rosidl_typesupport_cpp
+[ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 42%] [32m[1mLinking CXX shared library libros2_pca9685__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 45%] [32m[1mLinking CXX shared library libros2_pca9685__rosidl_typesupport_introspection_cpp.so[0m
+[ 48%] [32m[1mLinking CXX shared library libros2_pca9685__rosidl_typesupport_fastrtps_c.so[0m
+[ 48%] Built target ros2_pca9685__rosidl_typesupport_fastrtps_cpp
+[ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 51%] Built target ros2_pca9685__rosidl_typesupport_introspection_cpp
+[ 51%] Built target ros2_pca9685__rosidl_typesupport_fastrtps_c
+[ 54%] [32mBuilding CXX object CMakeFiles/ros2_pca9685_node.dir/src/pca9685.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/ros2_pca9685_node.dir/src/pca9685_hal.cpp.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_pca9685/srv/detail/set_pwm__type_support.c.o[0m
+[ 62%] [32m[1mLinking C shared library libros2_pca9685__rosidl_typesupport_introspection_c.so[0m
+[ 62%] Built target ros2_pca9685__rosidl_typesupport_introspection_c
+[ 65%] [32mBuilding CXX object CMakeFiles/ros2_pca9685_node.dir/src/pca9685_node.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/ros2_pca9685__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_pca9685/srv/set_pwm__type_support.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library libros2_pca9685__rosidl_typesupport_c.so[0m
+[ 71%] Built target ros2_pca9685__rosidl_typesupport_c
+[ 71%] Built target ros2_pca9685
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target ros2_pca9685__py
+[ 77%] [32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_generator_py.dir/rosidl_generator_py/ros2_pca9685/srv/_set_pwm_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/ros2_pca9685/libros2_pca9685__rosidl_generator_py.so[0m
+[ 80%] Built target ros2_pca9685__rosidl_generator_py
+[ 85%] [32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_c.c.o[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 97%] Built target ros2_pca9685__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target ros2_pca9685__rosidl_typesupport_c__pyext
+[ 97%] Built target ros2_pca9685__rosidl_typesupport_fastrtps_c__pyext
+[100%] [32m[1mLinking CXX executable ros2_pca9685_node[0m
+[100%] Built target ros2_pca9685_node
+-- Install configuration: ""
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ament_index/resource_index/rosidl_interfaces/ros2_pca9685
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/set_pwm.h
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__functions.c
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__struct.h
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__functions.h
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__type_support.h
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/library_path.sh
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/library_path.dsv
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_generator_c.so
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__struct.hpp
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__traits.hpp
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__builder.hpp
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/set_pwm.hpp
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/dds_fastrtps
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__type_support.c
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_c.so
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv
+-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__type_support.cpp
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/pythonpath.sh
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/pythonpath.dsv
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685-1.0.0-py3.10.egg-info
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv/_set_pwm.py
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv/_set_pwm_s.c
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv/__init__.py
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/__init__.py
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/libros2_pca9685__rosidl_generator_py.so
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685'...
+Compiling '/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/__init__.py'...
+Listing '/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv'...
+Compiling '/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv/__init__.py'...
+Compiling '/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv/_set_pwm.py'...
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_generator_py.so
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_generator_py.so" to ""
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/srv/SetPwm.idl
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/srv/SetPwm.srv
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/srv/SetPwm_Request.msg
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/srv/SetPwm_Response.msg
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/include
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/include/ros2_pca9685
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/include/ros2_pca9685/pca9685_node.h
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/include/ros2_pca9685/pca9685_hal.h
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/include/ros2_pca9685/pca9685.h
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/ros2_pca9685/ros2_pca9685_node
+-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/ros2_pca9685/ros2_pca9685_node" to ""
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/config
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/config/params.yaml
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/launch
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/launch/ros2_pca9685.launch.py
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ament_index/resource_index/package_run_dependencies/ros2_pca9685
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ament_index/resource_index/parent_prefix_path/ros2_pca9685
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/ament_prefix_path.sh
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/ament_prefix_path.dsv
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/path.sh
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/path.dsv
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/local_setup.bash
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/local_setup.sh
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/local_setup.zsh
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/local_setup.dsv
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/package.dsv
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ament_index/resource_index/packages/ros2_pca9685
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_generator_cExport.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_generator_cppExport.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_generator_pyExport.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685Config.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685Config-version.cmake
+-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/package.xml

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating ArucoDetectorPub.egg-info
+writing ArucoDetectorPub.egg-info/PKG-INFO
+writing dependency_links to ArucoDetectorPub.egg-info/dependency_links.txt
+writing entry points to ArucoDetectorPub.egg-info/entry_points.txt
+writing requirements to ArucoDetectorPub.egg-info/requires.txt
+writing top-level names to ArucoDetectorPub.egg-info/top_level.txt
+writing manifest file 'ArucoDetectorPub.egg-info/SOURCES.txt'
+reading manifest file 'ArucoDetectorPub.egg-info/SOURCES.txt'
+writing manifest file 'ArucoDetectorPub.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ns/ros2_ws/install/ArucoDetectorPub/lib/python3.10/site-packages/ArucoDetectorPub.egg-link (link to .)
+
+Installed /home/ns/ros2_ws/build/ArucoDetectorPub
+running install_data
+creating /home/ns/ros2_ws/install/ArucoDetectorPub/share/ament_index
+creating /home/ns/ros2_ws/install/ArucoDetectorPub/share/ament_index/resource_index
+creating /home/ns/ros2_ws/install/ArucoDetectorPub/share/ament_index/resource_index/packages
+copying resource/ArucoDetectorPub -> /home/ns/ros2_ws/install/ArucoDetectorPub/share/ament_index/resource_index/packages
+copying package.xml -> /home/ns/ros2_ws/install/ArucoDetectorPub/share/ArucoDetectorPub

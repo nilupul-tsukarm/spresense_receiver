@@ -1,0 +1,36 @@
+[6.461s] Invoking command in '/home/ns/ros2_ws/build/raspimouse_ros2_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ns/ros2_ws/src/raspimouse_ros2_examples -DCMAKE_INSTALL_PREFIX=/home/ns/ros2_ws/install/raspimouse_ros2_examples
+[6.684s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.848s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.956s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[8.300s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.323s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.384s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.491s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.658s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.318s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.337s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.019s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.043s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[12.399s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[12.644s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[12.772s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[13.949s] [31mCMake Error at CMakeLists.txt:30 (find_package):
+[13.950s]   By not providing "Findraspimouse_msgs.cmake" in CMAKE_MODULE_PATH this
+[13.951s]   project has asked CMake to find a package configuration file provided by
+[13.951s]   "raspimouse_msgs", but CMake did not find one.
+[13.952s] 
+[13.953s]   Could not find a package configuration file provided by "raspimouse_msgs"
+[13.954s]   with any of the following names:
+[13.955s] 
+[13.956s]     raspimouse_msgsConfig.cmake
+[13.957s]     raspimouse_msgs-config.cmake
+[13.957s] 
+[13.958s]   Add the installation prefix of "raspimouse_msgs" to CMAKE_PREFIX_PATH or
+[13.967s]   set "raspimouse_msgs_DIR" to a directory containing one of the above files.
+[13.969s]   If "raspimouse_msgs" provides a separate development package or SDK, be
+[13.970s]   sure it has been installed.
+[13.971s] 
+[13.972s] [0m
+[13.973s] -- Configuring incomplete, errors occurred!
+[13.974s] See also "/home/ns/ros2_ws/build/raspimouse_ros2_examples/CMakeFiles/CMakeOutput.log".
+[14.001s] Invoked command in '/home/ns/ros2_ws/build/raspimouse_ros2_examples' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ns/ros2_ws/src/raspimouse_ros2_examples -DCMAKE_INSTALL_PREFIX=/home/ns/ros2_ws/install/raspimouse_ros2_examples

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_pca9685/srv/SetPwm.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_pca9685 {
+  module srv {
+    struct SetPwm_Request {
+      @verbatim (language="comment", text=
+        "PCA9685 channel number")
+      uint8 channel_num;
+
+      @verbatim (language="comment", text=
+        "Taarget position of the servo motor (degrees)")
+      double target_position;
+    };
+    struct SetPwm_Response {
+      boolean is_success;
+
+      string response;
+    };
+  };
+};

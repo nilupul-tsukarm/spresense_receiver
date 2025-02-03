@@ -16,12 +16,8 @@ SDClass theSD;
 #define SSID "SprESP8266AP"
 #define PASS "123123123"
 #else
-//#define SSID "HR01a-62F4B1"
-//#define PASS "7c2ff42ce0"
-//#define SSID "tsukarm_underground_lab_2.4g"
-//#define PASS "underground404"
-#define SSID "Chintaka-Lab"
-#define PASS "65596357"
+#define SSID "ssid"
+#define PASS "pass"
 #endif
 
 void setup() {

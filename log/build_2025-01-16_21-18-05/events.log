@@ -1,0 +1,663 @@
+[0.000000] (-) TimerEvent: {}
+[0.001028] (-) JobUnselected: {'identifier': 'ArucoDetectorPub'}
+[0.002114] (-) JobUnselected: {'identifier': 'my_realsense_publisher'}
+[0.002773] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.003675] (-) JobUnselected: {'identifier': 'raspimouse_ros2_examples'}
+[0.003887] (ros2_pca9685) JobQueued: {'identifier': 'ros2_pca9685', 'dependencies': OrderedDict()}
+[0.004283] (ros2_pca9685) JobStarted: {'identifier': 'ros2_pca9685'}
+[0.098948] (-) TimerEvent: {}
+[0.199579] (-) TimerEvent: {}
+[0.301175] (-) TimerEvent: {}
+[0.399646] (ros2_pca9685) JobProgress: {'identifier': 'ros2_pca9685', 'progress': 'cmake'}
+[0.401032] (ros2_pca9685) Command: {'cmd': ['/usr/bin/cmake', '/home/ns/ros2_ws/src/ros2_pca9685', '-DCMAKE_INSTALL_PREFIX=/home/ns/ros2_ws/install/ros2_pca9685'], 'cwd': '/home/ns/ros2_ws/build/ros2_pca9685', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ns'), ('SSH_CLIENT', '192.168.0.117 45016 22'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ns'), ('OLDPWD', '/home/ns/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.96.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4c780d3b-2df0-4683-b0ed-2e7e6d11f35f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install:/home/ns/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ns'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/gcc/gcc-arm-none-eabi-10.3-2021.10/bin:/home/ns/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e6ef6efdc1.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_jointprocessor:/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685:/home/ns/lidar_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ns/ros2_ws/build/ros2_pca9685'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.117 45016 192.168.0.204 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_jointprocessor:/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685:/home/ns/lidar_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[0.407774] (-) TimerEvent: {}
+[0.508575] (-) TimerEvent: {}
+[0.609466] (-) TimerEvent: {}
+[0.710416] (-) TimerEvent: {}
+[0.741784] (ros2_pca9685) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.810667] (-) TimerEvent: {}
+[0.911939] (-) TimerEvent: {}
+[1.013389] (-) TimerEvent: {}
+[1.114294] (-) TimerEvent: {}
+[1.136504] (ros2_pca9685) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.177808] (ros2_pca9685) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.214542] (-) TimerEvent: {}
+[1.315457] (-) TimerEvent: {}
+[1.416294] (-) TimerEvent: {}
+[1.508022] (ros2_pca9685) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.516570] (-) TimerEvent: {}
+[1.542795] (ros2_pca9685) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.545774] (ros2_pca9685) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.547993] (ros2_pca9685) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.562041] (ros2_pca9685) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.616781] (-) TimerEvent: {}
+[1.717818] (-) TimerEvent: {}
+[1.818777] (-) TimerEvent: {}
+[1.919819] (-) TimerEvent: {}
+[1.935972] (ros2_pca9685) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.970151] (ros2_pca9685) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.971560] (ros2_pca9685) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.974163] (ros2_pca9685) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.010097] (ros2_pca9685) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.020012] (-) TimerEvent: {}
+[2.120759] (-) TimerEvent: {}
+[2.221615] (-) TimerEvent: {}
+[2.322950] (-) TimerEvent: {}
+[2.423657] (-) TimerEvent: {}
+[2.524477] (-) TimerEvent: {}
+[2.625958] (-) TimerEvent: {}
+[2.727404] (-) TimerEvent: {}
+[2.828356] (-) TimerEvent: {}
+[2.889640] (ros2_pca9685) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.928495] (-) TimerEvent: {}
+[3.029398] (-) TimerEvent: {}
+[3.130242] (-) TimerEvent: {}
+[3.231121] (-) TimerEvent: {}
+[3.332027] (-) TimerEvent: {}
+[3.432755] (-) TimerEvent: {}
+[3.533598] (-) TimerEvent: {}
+[3.585924] (ros2_pca9685) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.633803] (-) TimerEvent: {}
+[3.735594] (-) TimerEvent: {}
+[3.836891] (-) TimerEvent: {}
+[3.937753] (-) TimerEvent: {}
+[4.038538] (-) TimerEvent: {}
+[4.046150] (ros2_pca9685) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.105386] (ros2_pca9685) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.138722] (-) TimerEvent: {}
+[4.182580] (ros2_pca9685) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.238949] (-) TimerEvent: {}
+[4.283287] (ros2_pca9685) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.339107] (-) TimerEvent: {}
+[4.426429] (ros2_pca9685) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.439278] (-) TimerEvent: {}
+[4.540074] (-) TimerEvent: {}
+[4.641032] (-) TimerEvent: {}
+[4.741835] (-) TimerEvent: {}
+[4.842631] (-) TimerEvent: {}
+[4.898609] (ros2_pca9685) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.929690] (ros2_pca9685) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.942800] (-) TimerEvent: {}
+[5.043579] (-) TimerEvent: {}
+[5.144355] (-) TimerEvent: {}
+[5.245105] (-) TimerEvent: {}
+[5.345876] (-) TimerEvent: {}
+[5.446757] (-) TimerEvent: {}
+[5.547923] (-) TimerEvent: {}
+[5.648807] (-) TimerEvent: {}
+[5.653002] (ros2_pca9685) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.748998] (-) TimerEvent: {}
+[5.849772] (-) TimerEvent: {}
+[5.950702] (-) TimerEvent: {}
+[5.963952] (ros2_pca9685) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.050889] (-) TimerEvent: {}
+[6.151677] (-) TimerEvent: {}
+[6.252424] (-) TimerEvent: {}
+[6.353190] (-) TimerEvent: {}
+[6.454117] (-) TimerEvent: {}
+[6.477780] (ros2_pca9685) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.554291] (-) TimerEvent: {}
+[6.578922] (ros2_pca9685) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.654496] (-) TimerEvent: {}
+[6.755538] (-) TimerEvent: {}
+[6.856312] (-) TimerEvent: {}
+[6.950565] (ros2_pca9685) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.954685] (ros2_pca9685) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.956431] (-) TimerEvent: {}
+[7.057833] (-) TimerEvent: {}
+[7.159394] (-) TimerEvent: {}
+[7.260309] (-) TimerEvent: {}
+[7.317870] (ros2_pca9685) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.326119] (ros2_pca9685) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.360489] (-) TimerEvent: {}
+[7.461297] (-) TimerEvent: {}
+[7.562134] (-) TimerEvent: {}
+[7.663007] (-) TimerEvent: {}
+[7.763783] (-) TimerEvent: {}
+[7.864583] (-) TimerEvent: {}
+[7.965363] (-) TimerEvent: {}
+[8.066140] (-) TimerEvent: {}
+[8.072366] (ros2_pca9685) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.166323] (-) TimerEvent: {}
+[8.267153] (-) TimerEvent: {}
+[8.367999] (-) TimerEvent: {}
+[8.468754] (-) TimerEvent: {}
+[8.569526] (-) TimerEvent: {}
+[8.610998] (ros2_pca9685) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[8.669737] (-) TimerEvent: {}
+[8.770535] (-) TimerEvent: {}
+[8.871329] (-) TimerEvent: {}
+[8.972148] (-) TimerEvent: {}
+[9.072918] (-) TimerEvent: {}
+[9.173825] (-) TimerEvent: {}
+[9.274625] (-) TimerEvent: {}
+[9.375464] (-) TimerEvent: {}
+[9.476404] (-) TimerEvent: {}
+[9.577664] (-) TimerEvent: {}
+[9.678729] (-) TimerEvent: {}
+[9.780142] (-) TimerEvent: {}
+[9.836644] (ros2_pca9685) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.880285] (-) TimerEvent: {}
+[9.981070] (-) TimerEvent: {}
+[10.082002] (-) TimerEvent: {}
+[10.183331] (-) TimerEvent: {}
+[10.284049] (-) TimerEvent: {}
+[10.385532] (-) TimerEvent: {}
+[10.486441] (-) TimerEvent: {}
+[10.587291] (-) TimerEvent: {}
+[10.688158] (-) TimerEvent: {}
+[10.789114] (-) TimerEvent: {}
+[10.889975] (-) TimerEvent: {}
+[10.990754] (-) TimerEvent: {}
+[11.091525] (-) TimerEvent: {}
+[11.192251] (-) TimerEvent: {}
+[11.293565] (-) TimerEvent: {}
+[11.346152] (ros2_pca9685) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.393751] (-) TimerEvent: {}
+[11.494742] (-) TimerEvent: {}
+[11.595508] (-) TimerEvent: {}
+[11.696389] (-) TimerEvent: {}
+[11.797381] (-) TimerEvent: {}
+[11.898743] (-) TimerEvent: {}
+[11.917067] (ros2_pca9685) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.998932] (-) TimerEvent: {}
+[12.038390] (ros2_pca9685) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[12.065383] (ros2_pca9685) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[12.099065] (-) TimerEvent: {}
+[12.194637] (ros2_pca9685) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[12.195675] (ros2_pca9685) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.196230] (ros2_pca9685) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.196763] (ros2_pca9685) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[12.199267] (-) TimerEvent: {}
+[12.298833] (ros2_pca9685) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.299637] (-) TimerEvent: {}
+[12.400872] (-) TimerEvent: {}
+[12.501766] (-) TimerEvent: {}
+[12.507930] (ros2_pca9685) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.601952] (-) TimerEvent: {}
+[12.696579] (ros2_pca9685) StdoutLine: {'line': b'-- Generating done\n'}
+[12.702110] (-) TimerEvent: {}
+[12.712437] (ros2_pca9685) StdoutLine: {'line': b'-- Build files have been written to: /home/ns/ros2_ws/build/ros2_pca9685\n'}
+[12.763811] (ros2_pca9685) CommandEnded: {'returncode': 0}
+[12.765997] (ros2_pca9685) JobProgress: {'identifier': 'ros2_pca9685', 'progress': 'build'}
+[12.768929] (ros2_pca9685) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ns/ros2_ws/build/ros2_pca9685', '--', '-j4', '-l4'], 'cwd': '/home/ns/ros2_ws/build/ros2_pca9685', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ns'), ('SSH_CLIENT', '192.168.0.117 45016 22'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ns'), ('OLDPWD', '/home/ns/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.96.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4c780d3b-2df0-4683-b0ed-2e7e6d11f35f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install:/home/ns/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ns'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/gcc/gcc-arm-none-eabi-10.3-2021.10/bin:/home/ns/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e6ef6efdc1.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_jointprocessor:/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685:/home/ns/lidar_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ns/ros2_ws/build/ros2_pca9685'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.117 45016 192.168.0.204 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_jointprocessor:/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685:/home/ns/lidar_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[12.802336] (-) TimerEvent: {}
+[12.903246] (-) TimerEvent: {}
+[12.966675] (ros2_pca9685) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.003532] (-) TimerEvent: {}
+[13.016097] (ros2_pca9685) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[13.059252] (ros2_pca9685) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_ros2_pca9685\n'}
+[13.103700] (-) TimerEvent: {}
+[13.205642] (-) TimerEvent: {}
+[13.307418] (-) TimerEvent: {}
+[13.408942] (-) TimerEvent: {}
+[13.509790] (-) TimerEvent: {}
+[13.610593] (-) TimerEvent: {}
+[13.711531] (-) TimerEvent: {}
+[13.812460] (-) TimerEvent: {}
+[13.913354] (-) TimerEvent: {}
+[14.014160] (-) TimerEvent: {}
+[14.114978] (-) TimerEvent: {}
+[14.215708] (-) TimerEvent: {}
+[14.316550] (-) TimerEvent: {}
+[14.417621] (-) TimerEvent: {}
+[14.519441] (-) TimerEvent: {}
+[14.542632] (ros2_pca9685) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_generator_c.dir/rosidl_generator_c/ros2_pca9685/srv/detail/set_pwm__functions.c.o\x1b[0m\n'}
+[14.573606] (ros2_pca9685) StdoutLine: {'line': b'[  8%] Built target ros2_pca9685__cpp\n'}
+[14.619660] (-) TimerEvent: {}
+[14.625498] (ros2_pca9685) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.633452] (ros2_pca9685) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.719908] (-) TimerEvent: {}
+[14.800139] (ros2_pca9685) StdoutLine: {'line': b'running egg_info\n'}
+[14.803785] (ros2_pca9685) StdoutLine: {'line': b'creating ros2_pca9685.egg-info\n'}
+[14.804863] (ros2_pca9685) StdoutLine: {'line': b'writing ros2_pca9685.egg-info/PKG-INFO\n'}
+[14.806074] (ros2_pca9685) StdoutLine: {'line': b'writing dependency_links to ros2_pca9685.egg-info/dependency_links.txt\n'}
+[14.807569] (ros2_pca9685) StdoutLine: {'line': b'writing top-level names to ros2_pca9685.egg-info/top_level.txt\n'}
+[14.809146] (ros2_pca9685) StdoutLine: {'line': b"writing manifest file 'ros2_pca9685.egg-info/SOURCES.txt'\n"}
+[14.820141] (-) TimerEvent: {}
+[14.822579] (ros2_pca9685) StdoutLine: {'line': b"reading manifest file 'ros2_pca9685.egg-info/SOURCES.txt'\n"}
+[14.826126] (ros2_pca9685) StdoutLine: {'line': b"writing manifest file 'ros2_pca9685.egg-info/SOURCES.txt'\n"}
+[14.920487] (-) TimerEvent: {}
+[14.973346] (ros2_pca9685) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libros2_pca9685__rosidl_generator_c.so\x1b[0m\n'}
+[15.020724] (-) TimerEvent: {}
+[15.051431] (ros2_pca9685) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_ros2_pca9685_egg\n'}
+[15.121022] (-) TimerEvent: {}
+[15.125173] (ros2_pca9685) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[15.202496] (ros2_pca9685) StdoutLine: {'line': b'[ 20%] Built target ros2_pca9685__rosidl_generator_c\n'}
+[15.221360] (-) TimerEvent: {}
+[15.255152] (ros2_pca9685) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.321776] (-) TimerEvent: {}
+[15.423579] (-) TimerEvent: {}
+[15.525521] (-) TimerEvent: {}
+[15.627555] (-) TimerEvent: {}
+[15.728528] (-) TimerEvent: {}
+[15.830529] (-) TimerEvent: {}
+[15.931504] (-) TimerEvent: {}
+[16.032504] (-) TimerEvent: {}
+[16.133585] (-) TimerEvent: {}
+[16.235105] (-) TimerEvent: {}
+[16.260335] (ros2_pca9685) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pca9685__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_pca9685/srv/set_pwm__type_support.cpp.o\x1b[0m\n'}
+[16.335116] (-) TimerEvent: {}
+[16.436918] (-) TimerEvent: {}
+[16.444258] (ros2_pca9685) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pca9685__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_pca9685/srv/detail/dds_fastrtps/set_pwm__type_support.cpp.o\x1b[0m\n'}
+[16.537164] (-) TimerEvent: {}
+[16.639303] (-) TimerEvent: {}
+[16.741599] (-) TimerEvent: {}
+[16.803516] (ros2_pca9685) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pca9685__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_pca9685/srv/detail/set_pwm__type_support.cpp.o\x1b[0m\n'}
+[16.844673] (-) TimerEvent: {}
+[16.948806] (-) TimerEvent: {}
+[17.050290] (-) TimerEvent: {}
+[17.053649] (ros2_pca9685) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pca9685__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pca9685/srv/detail/set_pwm__type_support_c.cpp.o\x1b[0m\n'}
+[17.150537] (-) TimerEvent: {}
+[17.252056] (-) TimerEvent: {}
+[17.353289] (-) TimerEvent: {}
+[17.454531] (-) TimerEvent: {}
+[17.555752] (-) TimerEvent: {}
+[17.656867] (-) TimerEvent: {}
+[17.758098] (-) TimerEvent: {}
+[17.859256] (-) TimerEvent: {}
+[17.960734] (-) TimerEvent: {}
+[18.062063] (-) TimerEvent: {}
+[18.163368] (-) TimerEvent: {}
+[18.181208] (ros2_pca9685) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pca9685__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[18.263610] (-) TimerEvent: {}
+[18.364903] (-) TimerEvent: {}
+[18.466155] (-) TimerEvent: {}
+[18.488940] (ros2_pca9685) StdoutLine: {'line': b'[ 37%] Built target ros2_pca9685__rosidl_typesupport_cpp\n'}
+[18.558865] (ros2_pca9685) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[18.566436] (-) TimerEvent: {}
+[18.668556] (-) TimerEvent: {}
+[18.769800] (-) TimerEvent: {}
+[18.870955] (-) TimerEvent: {}
+[18.972048] (-) TimerEvent: {}
+[19.073084] (-) TimerEvent: {}
+[19.174210] (-) TimerEvent: {}
+[19.275282] (-) TimerEvent: {}
+[19.304257] (ros2_pca9685) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pca9685__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.375555] (-) TimerEvent: {}
+[19.474539] (ros2_pca9685) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pca9685__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.480069] (-) TimerEvent: {}
+[19.582460] (-) TimerEvent: {}
+[19.680803] (ros2_pca9685) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pca9685__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.685565] (-) TimerEvent: {}
+[19.710880] (ros2_pca9685) StdoutLine: {'line': b'[ 48%] Built target ros2_pca9685__rosidl_typesupport_fastrtps_cpp\n'}
+[19.770337] (ros2_pca9685) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.785829] (-) TimerEvent: {}
+[19.890788] (-) TimerEvent: {}
+[19.958632] (ros2_pca9685) StdoutLine: {'line': b'[ 51%] Built target ros2_pca9685__rosidl_typesupport_introspection_cpp\n'}
+[19.991052] (-) TimerEvent: {}
+[20.088609] (ros2_pca9685) StdoutLine: {'line': b'[ 51%] Built target ros2_pca9685__rosidl_typesupport_fastrtps_c\n'}
+[20.093814] (-) TimerEvent: {}
+[20.104049] (ros2_pca9685) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pca9685_node.dir/src/pca9685.cpp.o\x1b[0m\n'}
+[20.134571] (ros2_pca9685) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pca9685_node.dir/src/pca9685_hal.cpp.o\x1b[0m\n'}
+[20.194065] (-) TimerEvent: {}
+[20.296577] (-) TimerEvent: {}
+[20.399126] (-) TimerEvent: {}
+[20.469856] (ros2_pca9685) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_pca9685/srv/detail/set_pwm__type_support.c.o\x1b[0m\n'}
+[20.499408] (-) TimerEvent: {}
+[20.601382] (-) TimerEvent: {}
+[20.702192] (-) TimerEvent: {}
+[20.708916] (ros2_pca9685) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libros2_pca9685__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[20.802388] (-) TimerEvent: {}
+[20.857198] (ros2_pca9685) StdoutLine: {'line': b'[ 62%] Built target ros2_pca9685__rosidl_typesupport_introspection_c\n'}
+[20.898061] (ros2_pca9685) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pca9685_node.dir/src/pca9685_node.cpp.o\x1b[0m\n'}
+[20.902510] (-) TimerEvent: {}
+[21.005317] (-) TimerEvent: {}
+[21.109416] (-) TimerEvent: {}
+[21.173885] (ros2_pca9685) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pca9685__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_pca9685/srv/set_pwm__type_support.cpp.o\x1b[0m\n'}
+[21.209647] (-) TimerEvent: {}
+[21.312908] (-) TimerEvent: {}
+[21.366179] (ros2_pca9685) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pca9685__rosidl_typesupport_c.so\x1b[0m\n'}
+[21.413064] (-) TimerEvent: {}
+[21.514976] (-) TimerEvent: {}
+[21.578752] (ros2_pca9685) StdoutLine: {'line': b'[ 71%] Built target ros2_pca9685__rosidl_typesupport_c\n'}
+[21.615123] (-) TimerEvent: {}
+[21.703476] (ros2_pca9685) StdoutLine: {'line': b'[ 71%] Built target ros2_pca9685\n'}
+[21.715416] (-) TimerEvent: {}
+[21.816669] (-) TimerEvent: {}
+[21.832195] (ros2_pca9685) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.916964] (-) TimerEvent: {}
+[22.017930] (-) TimerEvent: {}
+[22.118929] (-) TimerEvent: {}
+[22.220430] (-) TimerEvent: {}
+[22.321449] (-) TimerEvent: {}
+[22.422971] (-) TimerEvent: {}
+[22.524132] (-) TimerEvent: {}
+[22.625003] (-) TimerEvent: {}
+[22.725884] (-) TimerEvent: {}
+[22.826797] (-) TimerEvent: {}
+[22.927933] (-) TimerEvent: {}
+[23.029405] (-) TimerEvent: {}
+[23.130682] (-) TimerEvent: {}
+[23.231912] (-) TimerEvent: {}
+[23.332727] (-) TimerEvent: {}
+[23.433699] (-) TimerEvent: {}
+[23.534596] (-) TimerEvent: {}
+[23.635457] (-) TimerEvent: {}
+[23.736309] (-) TimerEvent: {}
+[23.837215] (-) TimerEvent: {}
+[23.938188] (-) TimerEvent: {}
+[24.039389] (-) TimerEvent: {}
+[24.058569] (ros2_pca9685) StdoutLine: {'line': b'[ 74%] Built target ros2_pca9685__py\n'}
+[24.139596] (-) TimerEvent: {}
+[24.152356] (ros2_pca9685) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_generator_py.dir/rosidl_generator_py/ros2_pca9685/srv/_set_pwm_s.c.o\x1b[0m\n'}
+[24.239873] (-) TimerEvent: {}
+[24.341707] (-) TimerEvent: {}
+[24.442822] (-) TimerEvent: {}
+[24.544022] (-) TimerEvent: {}
+[24.644994] (-) TimerEvent: {}
+[24.746062] (-) TimerEvent: {}
+[24.748178] (ros2_pca9685) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_pca9685/libros2_pca9685__rosidl_generator_py.so\x1b[0m\n'}
+[24.846291] (-) TimerEvent: {}
+[24.944251] (ros2_pca9685) StdoutLine: {'line': b'[ 80%] Built target ros2_pca9685__rosidl_generator_py\n'}
+[24.947184] (-) TimerEvent: {}
+[25.047982] (-) TimerEvent: {}
+[25.052107] (ros2_pca9685) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[25.056134] (ros2_pca9685) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[25.086573] (ros2_pca9685) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros2_pca9685__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[25.148252] (-) TimerEvent: {}
+[25.249881] (-) TimerEvent: {}
+[25.352057] (-) TimerEvent: {}
+[25.454036] (-) TimerEvent: {}
+[25.555876] (-) TimerEvent: {}
+[25.623874] (ros2_pca9685) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[25.667178] (-) TimerEvent: {}
+[25.728683] (ros2_pca9685) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[25.764181] (ros2_pca9685) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[25.776086] (-) TimerEvent: {}
+[25.877216] (-) TimerEvent: {}
+[25.882136] (ros2_pca9685) StdoutLine: {'line': b'[ 97%] Built target ros2_pca9685__rosidl_typesupport_introspection_c__pyext\n'}
+[25.968395] (ros2_pca9685) StdoutLine: {'line': b'[ 97%] Built target ros2_pca9685__rosidl_typesupport_c__pyext\n'}
+[25.977371] (-) TimerEvent: {}
+[26.010647] (ros2_pca9685) StdoutLine: {'line': b'[ 97%] Built target ros2_pca9685__rosidl_typesupport_fastrtps_c__pyext\n'}
+[26.077574] (-) TimerEvent: {}
+[26.178487] (-) TimerEvent: {}
+[26.279635] (-) TimerEvent: {}
+[26.380516] (-) TimerEvent: {}
+[26.481771] (-) TimerEvent: {}
+[26.582617] (-) TimerEvent: {}
+[26.683594] (-) TimerEvent: {}
+[26.784493] (-) TimerEvent: {}
+[26.885349] (-) TimerEvent: {}
+[26.986306] (-) TimerEvent: {}
+[27.087193] (-) TimerEvent: {}
+[27.188070] (-) TimerEvent: {}
+[27.288945] (-) TimerEvent: {}
+[27.389860] (-) TimerEvent: {}
+[27.490797] (-) TimerEvent: {}
+[27.591678] (-) TimerEvent: {}
+[27.692525] (-) TimerEvent: {}
+[27.793425] (-) TimerEvent: {}
+[27.894405] (-) TimerEvent: {}
+[27.995282] (-) TimerEvent: {}
+[28.096119] (-) TimerEvent: {}
+[28.196996] (-) TimerEvent: {}
+[28.298025] (-) TimerEvent: {}
+[28.398880] (-) TimerEvent: {}
+[28.499737] (-) TimerEvent: {}
+[28.600593] (-) TimerEvent: {}
+[28.701533] (-) TimerEvent: {}
+[28.802442] (-) TimerEvent: {}
+[28.903310] (-) TimerEvent: {}
+[29.004173] (-) TimerEvent: {}
+[29.105005] (-) TimerEvent: {}
+[29.205938] (-) TimerEvent: {}
+[29.306840] (-) TimerEvent: {}
+[29.407745] (-) TimerEvent: {}
+[29.508573] (-) TimerEvent: {}
+[29.609500] (-) TimerEvent: {}
+[29.710396] (-) TimerEvent: {}
+[29.811299] (-) TimerEvent: {}
+[29.912144] (-) TimerEvent: {}
+[30.013252] (-) TimerEvent: {}
+[30.114516] (-) TimerEvent: {}
+[30.215391] (-) TimerEvent: {}
+[30.316219] (-) TimerEvent: {}
+[30.417165] (-) TimerEvent: {}
+[30.518005] (-) TimerEvent: {}
+[30.618885] (-) TimerEvent: {}
+[30.719927] (-) TimerEvent: {}
+[30.820869] (-) TimerEvent: {}
+[30.921745] (-) TimerEvent: {}
+[31.022612] (-) TimerEvent: {}
+[31.123547] (-) TimerEvent: {}
+[31.224535] (-) TimerEvent: {}
+[31.325448] (-) TimerEvent: {}
+[31.426365] (-) TimerEvent: {}
+[31.527572] (-) TimerEvent: {}
+[31.628486] (-) TimerEvent: {}
+[31.729346] (-) TimerEvent: {}
+[31.830208] (-) TimerEvent: {}
+[31.931081] (-) TimerEvent: {}
+[32.031977] (-) TimerEvent: {}
+[32.132855] (-) TimerEvent: {}
+[32.233701] (-) TimerEvent: {}
+[32.334552] (-) TimerEvent: {}
+[32.435452] (-) TimerEvent: {}
+[32.536299] (-) TimerEvent: {}
+[32.637175] (-) TimerEvent: {}
+[32.738035] (-) TimerEvent: {}
+[32.838999] (-) TimerEvent: {}
+[32.939826] (-) TimerEvent: {}
+[33.040669] (-) TimerEvent: {}
+[33.141549] (-) TimerEvent: {}
+[33.242428] (-) TimerEvent: {}
+[33.343400] (-) TimerEvent: {}
+[33.444325] (-) TimerEvent: {}
+[33.545250] (-) TimerEvent: {}
+[33.646147] (-) TimerEvent: {}
+[33.747085] (-) TimerEvent: {}
+[33.848080] (-) TimerEvent: {}
+[33.948989] (-) TimerEvent: {}
+[34.049848] (-) TimerEvent: {}
+[34.151019] (-) TimerEvent: {}
+[34.252071] (-) TimerEvent: {}
+[34.353532] (-) TimerEvent: {}
+[34.454428] (-) TimerEvent: {}
+[34.555409] (-) TimerEvent: {}
+[34.656368] (-) TimerEvent: {}
+[34.757837] (-) TimerEvent: {}
+[34.858766] (-) TimerEvent: {}
+[34.959684] (-) TimerEvent: {}
+[35.060589] (-) TimerEvent: {}
+[35.161496] (-) TimerEvent: {}
+[35.262390] (-) TimerEvent: {}
+[35.363374] (-) TimerEvent: {}
+[35.464260] (-) TimerEvent: {}
+[35.565109] (-) TimerEvent: {}
+[35.665979] (-) TimerEvent: {}
+[35.766852] (-) TimerEvent: {}
+[35.867713] (-) TimerEvent: {}
+[35.968581] (-) TimerEvent: {}
+[36.069465] (-) TimerEvent: {}
+[36.170346] (-) TimerEvent: {}
+[36.271364] (-) TimerEvent: {}
+[36.372256] (-) TimerEvent: {}
+[36.473176] (-) TimerEvent: {}
+[36.574237] (-) TimerEvent: {}
+[36.675095] (-) TimerEvent: {}
+[36.775933] (-) TimerEvent: {}
+[36.876910] (-) TimerEvent: {}
+[36.954550] (ros2_pca9685) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros2_pca9685_node\x1b[0m\n'}
+[36.977134] (-) TimerEvent: {}
+[37.078220] (-) TimerEvent: {}
+[37.179351] (-) TimerEvent: {}
+[37.280539] (-) TimerEvent: {}
+[37.381536] (-) TimerEvent: {}
+[37.482484] (-) TimerEvent: {}
+[37.583327] (-) TimerEvent: {}
+[37.674188] (ros2_pca9685) StdoutLine: {'line': b'[100%] Built target ros2_pca9685_node\n'}
+[37.683529] (-) TimerEvent: {}
+[37.724707] (ros2_pca9685) CommandEnded: {'returncode': 0}
+[37.783772] (-) TimerEvent: {}
+[37.884615] (-) TimerEvent: {}
+[37.985395] (-) TimerEvent: {}
+[38.087199] (-) TimerEvent: {}
+[38.140058] (ros2_pca9685) JobProgress: {'identifier': 'ros2_pca9685', 'progress': 'install'}
+[38.176946] (ros2_pca9685) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ns/ros2_ws/build/ros2_pca9685'], 'cwd': '/home/ns/ros2_ws/build/ros2_pca9685', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ns'), ('SSH_CLIENT', '192.168.0.117 45016 22'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ns'), ('OLDPWD', '/home/ns/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.96.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4c780d3b-2df0-4683-b0ed-2e7e6d11f35f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ns/.vscode-server/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install:/home/ns/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ns'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/gcc/gcc-arm-none-eabi-10.3-2021.10/bin:/home/ns/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e6ef6efdc1.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_jointprocessor:/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685:/home/ns/lidar_ws/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ns/ros2_ws/build/ros2_pca9685'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.117 45016 192.168.0.204 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_jointprocessor:/home/ns/ros2_roboticarm_demo/roboticarm_pi_ros2_ws/install/ros2_pca9685:/home/ns/lidar_ws/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[38.187375] (-) TimerEvent: {}
+[38.213701] (ros2_pca9685) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.216228] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ament_index/resource_index/rosidl_interfaces/ros2_pca9685\n'}
+[38.217048] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685\n'}
+[38.217773] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg\n'}
+[38.218411] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg/rosidl_generator_c__visibility_control.h\n'}
+[38.219369] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv\n'}
+[38.220022] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/set_pwm.h\n'}
+[38.221182] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail\n'}
+[38.221979] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__functions.c\n'}
+[38.223144] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__struct.h\n'}
+[38.224254] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__functions.h\n'}
+[38.225402] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__type_support.h\n'}
+[38.227049] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/library_path.sh\n'}
+[38.228561] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/library_path.dsv\n'}
+[38.230314] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_generator_c.so\n'}
+[38.232972] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_generator_c.so" to ""\n'}
+[38.234010] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685\n'}
+[38.234647] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg\n'}
+[38.235226] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[38.236196] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv\n'}
+[38.236636] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail\n'}
+[38.237044] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__rosidl_typesupport_fastrtps_c.h\n'}
+[38.237688] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_fastrtps_c.so\n'}
+[38.240388] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[38.241343] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685\n'}
+[38.241814] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv\n'}
+[38.242194] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail\n'}
+[38.242542] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__struct.hpp\n'}
+[38.242965] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__traits.hpp\n'}
+[38.244263] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__builder.hpp\n'}
+[38.245194] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/set_pwm.hpp\n'}
+[38.246302] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685\n'}
+[38.247314] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg\n'}
+[38.247767] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[38.248399] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv\n'}
+[38.249232] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail\n'}
+[38.249669] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[38.250361] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/dds_fastrtps\n'}
+[38.251519] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_fastrtps_cpp.so\n'}
+[38.254224] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[38.255122] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685\n'}
+[38.255669] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg\n'}
+[38.256050] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[38.256627] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv\n'}
+[38.257166] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail\n'}
+[38.257718] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__type_support.c\n'}
+[38.258512] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__rosidl_typesupport_introspection_c.h\n'}
+[38.260076] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_introspection_c.so\n'}
+[38.262495] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_introspection_c.so" to ""\n'}
+[38.263306] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_c.so\n'}
+[38.267036] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_c.so" to ""\n'}
+[38.267624] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685\n'}
+[38.268259] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv\n'}
+[38.268660] (ros2_pca9685) StdoutLine: {'line': b'-- Up-to-date: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail\n'}
+[38.269013] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__type_support.cpp\n'}
+[38.269545] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/ros2_pca9685/ros2_pca9685/srv/detail/set_pwm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[38.269980] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_introspection_cpp.so\n'}
+[38.272215] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[38.272869] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_cpp.so\n'}
+[38.275377] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_typesupport_cpp.so" to ""\n'}
+[38.276026] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/pythonpath.sh\n'}
+[38.277375] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/pythonpath.dsv\n'}
+[38.278709] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685-1.0.0-py3.10.egg-info\n'}
+[38.279810] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[38.281013] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[38.282153] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[38.283288] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[38.284526] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685\n'}
+[38.285386] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[38.286565] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv\n'}
+[38.287408] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv/_set_pwm.py\n'}
+[38.287940] (-) TimerEvent: {}
+[38.288585] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv/_set_pwm_s.c\n'}
+[38.289821] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv/__init__.py\n'}
+[38.290879] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[38.292273] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/__init__.py\n'}
+[38.293660] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[38.294969] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[38.296471] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_c.c\n'}
+[38.297674] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/libros2_pca9685__rosidl_generator_py.so\n'}
+[38.299020] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/_ros2_pca9685_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[38.388120] (-) TimerEvent: {}
+[38.453793] (ros2_pca9685) StdoutLine: {'line': b"Listing '/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685'...\n"}
+[38.455487] (ros2_pca9685) StdoutLine: {'line': b"Compiling '/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/__init__.py'...\n"}
+[38.457030] (ros2_pca9685) StdoutLine: {'line': b"Listing '/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv'...\n"}
+[38.458278] (ros2_pca9685) StdoutLine: {'line': b"Compiling '/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv/__init__.py'...\n"}
+[38.459917] (ros2_pca9685) StdoutLine: {'line': b"Compiling '/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/srv/_set_pwm.py'...\n"}
+[38.481478] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[38.484175] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[38.485653] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[38.488328] (-) TimerEvent: {}
+[38.489214] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[38.490977] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[38.494517] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/local/lib/python3.10/dist-packages/ros2_pca9685/ros2_pca9685_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[38.496426] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_generator_py.so\n'}
+[38.498796] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/libros2_pca9685__rosidl_generator_py.so" to ""\n'}
+[38.499781] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/srv/SetPwm.idl\n'}
+[38.500686] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/srv/SetPwm.srv\n'}
+[38.501723] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/srv/SetPwm_Request.msg\n'}
+[38.502849] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/srv/SetPwm_Response.msg\n'}
+[38.504028] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/include\n'}
+[38.504735] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/include/ros2_pca9685\n'}
+[38.505386] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/include/ros2_pca9685/pca9685_node.h\n'}
+[38.506180] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/include/ros2_pca9685/pca9685_hal.h\n'}
+[38.509137] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/include/include/ros2_pca9685/pca9685.h\n'}
+[38.509733] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/lib/ros2_pca9685/ros2_pca9685_node\n'}
+[38.517064] (ros2_pca9685) StdoutLine: {'line': b'-- Set runtime path of "/home/ns/ros2_ws/install/ros2_pca9685/lib/ros2_pca9685/ros2_pca9685_node" to ""\n'}
+[38.517822] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/config\n'}
+[38.518454] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/config/params.yaml\n'}
+[38.519098] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/launch\n'}
+[38.519595] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/launch/ros2_pca9685.launch.py\n'}
+[38.520525] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ament_index/resource_index/package_run_dependencies/ros2_pca9685\n'}
+[38.522166] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ament_index/resource_index/parent_prefix_path/ros2_pca9685\n'}
+[38.523550] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/ament_prefix_path.sh\n'}
+[38.524735] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/ament_prefix_path.dsv\n'}
+[38.525935] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/path.sh\n'}
+[38.527151] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/environment/path.dsv\n'}
+[38.528357] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/local_setup.bash\n'}
+[38.529483] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/local_setup.sh\n'}
+[38.530675] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/local_setup.zsh\n'}
+[38.531924] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/local_setup.dsv\n'}
+[38.533055] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/package.dsv\n'}
+[38.534584] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ament_index/resource_index/packages/ros2_pca9685\n'}
+[38.536379] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_generator_cExport.cmake\n'}
+[38.538075] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_generator_cExport-noconfig.cmake\n'}
+[38.539411] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[38.540838] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[38.542332] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_generator_cppExport.cmake\n'}
+[38.543832] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[38.545308] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[38.546795] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_introspection_cExport.cmake\n'}
+[38.548322] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[38.549786] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_cExport.cmake\n'}
+[38.551244] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[38.552688] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[38.554104] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[38.555604] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_cppExport.cmake\n'}
+[38.556991] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[38.558425] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_generator_pyExport.cmake\n'}
+[38.560040] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/export_ros2_pca9685__rosidl_generator_pyExport-noconfig.cmake\n'}
+[38.561386] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/rosidl_cmake-extras.cmake\n'}
+[38.562635] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[38.563983] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[38.565275] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[38.566576] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[38.568008] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[38.569319] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[38.570572] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685Config.cmake\n'}
+[38.571699] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/cmake/ros2_pca9685Config-version.cmake\n'}
+[38.573287] (ros2_pca9685) StdoutLine: {'line': b'-- Installing: /home/ns/ros2_ws/install/ros2_pca9685/share/ros2_pca9685/package.xml\n'}
+[38.580508] (ros2_pca9685) CommandEnded: {'returncode': 0}
+[38.588627] (-) TimerEvent: {}
+[38.689788] (-) TimerEvent: {}
+[38.790643] (-) TimerEvent: {}
+[38.891801] (-) TimerEvent: {}
+[38.992851] (-) TimerEvent: {}
+[39.094192] (-) TimerEvent: {}
+[39.195025] (-) TimerEvent: {}
+[39.295764] (-) TimerEvent: {}
+[39.396823] (-) TimerEvent: {}
+[39.497643] (-) TimerEvent: {}
+[39.598361] (-) TimerEvent: {}
+[39.699822] (-) TimerEvent: {}
+[39.732729] (ros2_pca9685) JobEnded: {'identifier': 'ros2_pca9685', 'rc': 0}
+[39.735403] (-) EventReactorShutdown: {}

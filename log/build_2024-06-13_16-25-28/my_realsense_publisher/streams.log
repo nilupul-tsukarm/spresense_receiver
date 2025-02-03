@@ -1,0 +1,27 @@
+[10.791s] Invoking command in '/home/ns/ros2_ws/build/my_realsense_publisher': PYTHONPATH=/home/ns/ros2_ws/build/my_realsense_publisher/prefix_override:/home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ns/ros2_ws/build/my_realsense_publisher/build --no-deps install_data
+[13.739s] running develop
+[13.747s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[13.747s]   warnings.warn(
+[13.754s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.755s]   warnings.warn(
+[15.977s] running egg_info
+[15.978s] creating my_realsense_publisher.egg-info
+[15.979s] writing my_realsense_publisher.egg-info/PKG-INFO
+[15.979s] writing dependency_links to my_realsense_publisher.egg-info/dependency_links.txt
+[15.980s] writing entry points to my_realsense_publisher.egg-info/entry_points.txt
+[15.981s] writing requirements to my_realsense_publisher.egg-info/requires.txt
+[15.981s] writing top-level names to my_realsense_publisher.egg-info/top_level.txt
+[15.982s] writing manifest file 'my_realsense_publisher.egg-info/SOURCES.txt'
+[15.988s] reading manifest file 'my_realsense_publisher.egg-info/SOURCES.txt'
+[15.996s] writing manifest file 'my_realsense_publisher.egg-info/SOURCES.txt'
+[16.006s] running build_ext
+[16.008s] Creating /home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages/my-realsense-publisher.egg-link (link to .)
+[16.015s] 
+[16.016s] Installed /home/ns/ros2_ws/build/my_realsense_publisher
+[16.017s] running install_data
+[16.019s] creating /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index
+[16.021s] creating /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index/resource_index
+[16.022s] creating /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index/resource_index/packages
+[16.023s] copying resource/my_realsense_publisher -> /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index/resource_index/packages
+[16.024s] copying package.xml -> /home/ns/ros2_ws/install/my_realsense_publisher/share/my_realsense_publisher
+[17.311s] Invoked command in '/home/ns/ros2_ws/build/my_realsense_publisher' returned '0': PYTHONPATH=/home/ns/ros2_ws/build/my_realsense_publisher/prefix_override:/home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ns/ros2_ws/build/my_realsense_publisher/build --no-deps install_data

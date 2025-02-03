@@ -1,0 +1,381 @@
+[0.000000] (-) TimerEvent: {}
+[0.000925] (ArucoDetectorPub) JobQueued: {'identifier': 'ArucoDetectorPub', 'dependencies': OrderedDict()}
+[0.002325] (my_realsense_publisher) JobQueued: {'identifier': 'my_realsense_publisher', 'dependencies': OrderedDict()}
+[0.002975] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.003077] (raspimouse_ros2_examples) JobQueued: {'identifier': 'raspimouse_ros2_examples', 'dependencies': OrderedDict()}
+[0.003375] (ArucoDetectorPub) JobStarted: {'identifier': 'ArucoDetectorPub'}
+[0.098944] (-) TimerEvent: {}
+[0.199770] (-) TimerEvent: {}
+[0.301607] (-) TimerEvent: {}
+[0.402424] (-) TimerEvent: {}
+[0.432389] (my_realsense_publisher) JobStarted: {'identifier': 'my_realsense_publisher'}
+[0.502707] (-) TimerEvent: {}
+[0.603766] (-) TimerEvent: {}
+[0.745608] (-) TimerEvent: {}
+[0.847335] (-) TimerEvent: {}
+[0.889684] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.947595] (-) TimerEvent: {}
+[1.048717] (-) TimerEvent: {}
+[1.151447] (-) TimerEvent: {}
+[1.252377] (-) TimerEvent: {}
+[1.296967] (raspimouse_ros2_examples) JobStarted: {'identifier': 'raspimouse_ros2_examples'}
+[1.352661] (-) TimerEvent: {}
+[1.453708] (-) TimerEvent: {}
+[1.554619] (-) TimerEvent: {}
+[1.656096] (-) TimerEvent: {}
+[1.757158] (-) TimerEvent: {}
+[1.858660] (-) TimerEvent: {}
+[1.960159] (-) TimerEvent: {}
+[2.061786] (-) TimerEvent: {}
+[2.162645] (-) TimerEvent: {}
+[2.263481] (-) TimerEvent: {}
+[2.364220] (-) TimerEvent: {}
+[2.465011] (-) TimerEvent: {}
+[2.565776] (-) TimerEvent: {}
+[2.666586] (-) TimerEvent: {}
+[2.767426] (-) TimerEvent: {}
+[2.868222] (-) TimerEvent: {}
+[2.969031] (-) TimerEvent: {}
+[3.069787] (-) TimerEvent: {}
+[3.170712] (-) TimerEvent: {}
+[3.272469] (-) TimerEvent: {}
+[3.373602] (-) TimerEvent: {}
+[3.477010] (-) TimerEvent: {}
+[3.579158] (-) TimerEvent: {}
+[3.680434] (-) TimerEvent: {}
+[3.781244] (-) TimerEvent: {}
+[3.882222] (-) TimerEvent: {}
+[3.983227] (-) TimerEvent: {}
+[4.084058] (-) TimerEvent: {}
+[4.184815] (-) TimerEvent: {}
+[4.285629] (-) TimerEvent: {}
+[4.386423] (-) TimerEvent: {}
+[4.487211] (-) TimerEvent: {}
+[4.588113] (-) TimerEvent: {}
+[4.689047] (-) TimerEvent: {}
+[4.790020] (-) TimerEvent: {}
+[4.891024] (-) TimerEvent: {}
+[4.992489] (-) TimerEvent: {}
+[5.094141] (-) TimerEvent: {}
+[5.196541] (-) TimerEvent: {}
+[5.297582] (-) TimerEvent: {}
+[5.399252] (-) TimerEvent: {}
+[5.500014] (-) TimerEvent: {}
+[5.601507] (-) TimerEvent: {}
+[5.702361] (-) TimerEvent: {}
+[5.803233] (-) TimerEvent: {}
+[5.904563] (-) TimerEvent: {}
+[6.005470] (-) TimerEvent: {}
+[6.106392] (-) TimerEvent: {}
+[6.207354] (-) TimerEvent: {}
+[6.308875] (-) TimerEvent: {}
+[6.410241] (-) TimerEvent: {}
+[6.511219] (-) TimerEvent: {}
+[6.611984] (-) TimerEvent: {}
+[6.712748] (-) TimerEvent: {}
+[6.813492] (-) TimerEvent: {}
+[6.914297] (-) TimerEvent: {}
+[7.015219] (-) TimerEvent: {}
+[7.116559] (-) TimerEvent: {}
+[7.219752] (-) TimerEvent: {}
+[7.321384] (-) TimerEvent: {}
+[7.422841] (-) TimerEvent: {}
+[7.439733] (raspimouse_ros2_examples) JobProgress: {'identifier': 'raspimouse_ros2_examples', 'progress': 'cmake'}
+[7.441447] (raspimouse_ros2_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/ns/ros2_ws/src/raspimouse_ros2_examples', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ns/ros2_ws/install/raspimouse_ros2_examples'], 'cwd': '/home/ns/ros2_ws/build/raspimouse_ros2_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ns'), ('SSH_CLIENT', '192.168.0.114 49863 22'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ns'), ('OLDPWD', '/home/ns/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-13ce3c95-80a1-4d55-a834-0efbf95f0ab0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ns'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/remote-cli:/home/ns/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9cab2fb0f2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ns/ros2_ws/build/raspimouse_ros2_examples'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 49863 192.168.0.204 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.528596] (-) TimerEvent: {}
+[7.630896] (-) TimerEvent: {}
+[7.732086] (-) TimerEvent: {}
+[7.834930] (-) TimerEvent: {}
+[7.936094] (-) TimerEvent: {}
+[8.046374] (-) TimerEvent: {}
+[8.148037] (-) TimerEvent: {}
+[8.249080] (-) TimerEvent: {}
+[8.351552] (-) TimerEvent: {}
+[8.452567] (-) TimerEvent: {}
+[8.511514] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.552771] (-) TimerEvent: {}
+[8.662403] (-) TimerEvent: {}
+[8.764586] (-) TimerEvent: {}
+[8.866187] (-) TimerEvent: {}
+[8.967218] (-) TimerEvent: {}
+[9.068335] (-) TimerEvent: {}
+[9.169401] (-) TimerEvent: {}
+[9.270599] (-) TimerEvent: {}
+[9.364749] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[9.370840] (-) TimerEvent: {}
+[9.472027] (-) TimerEvent: {}
+[9.481994] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.572314] (-) TimerEvent: {}
+[9.673477] (-) TimerEvent: {}
+[9.777251] (-) TimerEvent: {}
+[9.879516] (-) TimerEvent: {}
+[9.980906] (-) TimerEvent: {}
+[10.082077] (-) TimerEvent: {}
+[10.183520] (-) TimerEvent: {}
+[10.245865] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[10.283785] (-) TimerEvent: {}
+[10.285623] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[10.291174] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[10.295260] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[10.329288] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.384007] (-) TimerEvent: {}
+[10.486488] (-) TimerEvent: {}
+[10.588771] (-) TimerEvent: {}
+[10.691119] (-) TimerEvent: {}
+[10.797062] (-) TimerEvent: {}
+[10.899978] (-) TimerEvent: {}
+[10.938429] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ns/ros2_ws/build/py_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/ns/ros2_ws/build/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ns', 'SSH_CLIENT': '192.168.0.114 49863 22', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ns', 'OLDPWD': '/home/ns/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.90.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-13ce3c95-80a1-4d55-a834-0efbf95f0ab0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ns', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/remote-cli:/home/ns/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ja_JP.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9cab2fb0f2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ns/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.114 49863 192.168.0.204 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ns/ros2_ws/build/py_pubsub/prefix_override:/home/ns/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1'}, 'shell': False}
+[11.000248] (-) TimerEvent: {}
+[11.104760] (-) TimerEvent: {}
+[11.206398] (-) TimerEvent: {}
+[11.216111] (my_realsense_publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ns/ros2_ws/build/my_realsense_publisher/build', '--no-deps', 'install_data'], 'cwd': '/home/ns/ros2_ws/build/my_realsense_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ns', 'SSH_CLIENT': '192.168.0.114 49863 22', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ns', 'OLDPWD': '/home/ns/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.90.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-13ce3c95-80a1-4d55-a834-0efbf95f0ab0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ns', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/remote-cli:/home/ns/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ja_JP.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9cab2fb0f2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ns/ros2_ws/build/my_realsense_publisher', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.114 49863 192.168.0.204 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ns/ros2_ws/build/my_realsense_publisher/prefix_override:/home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1'}, 'shell': False}
+[11.306587] (-) TimerEvent: {}
+[11.407738] (-) TimerEvent: {}
+[11.433724] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.440058] (ArucoDetectorPub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ns/ros2_ws/build/ArucoDetectorPub/build', '--no-deps', 'install_data'], 'cwd': '/home/ns/ros2_ws/build/ArucoDetectorPub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ns', 'SSH_CLIENT': '192.168.0.114 49863 22', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ns', 'OLDPWD': '/home/ns/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.90.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-13ce3c95-80a1-4d55-a834-0efbf95f0ab0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ns', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ns/.vscode-server/cli/servers/Stable-89de5a8d4d6205e5b11647eb6a74844ca23d2573/server/bin/remote-cli:/home/ns/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ja_JP.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9cab2fb0f2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ns/ros2_ws/build/ArucoDetectorPub', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.114 49863 192.168.0.204 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ns/ros2_ws/build/ArucoDetectorPub/prefix_override:/home/ns/ros2_ws/install/ArucoDetectorPub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1'}, 'shell': False}
+[11.504997] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[11.507977] (-) TimerEvent: {}
+[11.513257] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.522110] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.586668] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[11.608215] (-) TimerEvent: {}
+[11.711883] (-) TimerEvent: {}
+[11.814325] (-) TimerEvent: {}
+[11.916500] (-) TimerEvent: {}
+[12.018132] (-) TimerEvent: {}
+[12.119343] (-) TimerEvent: {}
+[12.220451] (-) TimerEvent: {}
+[12.325266] (-) TimerEvent: {}
+[12.427268] (-) TimerEvent: {}
+[12.529622] (-) TimerEvent: {}
+[12.630930] (-) TimerEvent: {}
+[12.732561] (-) TimerEvent: {}
+[12.833468] (-) TimerEvent: {}
+[12.934474] (-) TimerEvent: {}
+[13.036014] (-) TimerEvent: {}
+[13.137176] (-) TimerEvent: {}
+[13.238204] (-) TimerEvent: {}
+[13.339219] (-) TimerEvent: {}
+[13.440225] (-) TimerEvent: {}
+[13.541569] (-) TimerEvent: {}
+[13.643557] (-) TimerEvent: {}
+[13.699468] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[13.743942] (-) TimerEvent: {}
+[13.846971] (-) TimerEvent: {}
+[13.949199] (-) TimerEvent: {}
+[14.034021] (ArucoDetectorPub) StdoutLine: {'line': b'running develop\n'}
+[14.037380] (ArucoDetectorPub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.038567] (ArucoDetectorPub) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.048135] (ArucoDetectorPub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.048922] (ArucoDetectorPub) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.049581] (-) TimerEvent: {}
+[14.150585] (-) TimerEvent: {}
+[14.170956] (my_realsense_publisher) StdoutLine: {'line': b'running develop\n'}
+[14.178371] (my_realsense_publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.179869] (my_realsense_publisher) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.186211] (my_realsense_publisher) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.187470] (my_realsense_publisher) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.199453] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[14.202119] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.203643] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.212154] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[14.213420] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[14.250794] (-) TimerEvent: {}
+[14.352132] (-) TimerEvent: {}
+[14.410986] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.452362] (-) TimerEvent: {}
+[14.554829] (-) TimerEvent: {}
+[14.658702] (-) TimerEvent: {}
+[14.760704] (-) TimerEvent: {}
+[14.863367] (-) TimerEvent: {}
+[14.965228] (-) TimerEvent: {}
+[15.015348] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[15.065458] (-) TimerEvent: {}
+[15.166650] (-) TimerEvent: {}
+[15.267523] (-) TimerEvent: {}
+[15.368441] (-) TimerEvent: {}
+[15.469341] (-) TimerEvent: {}
+[15.570384] (-) TimerEvent: {}
+[15.666484] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[15.670607] (-) TimerEvent: {}
+[15.730561] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[15.770862] (-) TimerEvent: {}
+[15.871814] (-) TimerEvent: {}
+[15.902777] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[15.919479] (ArucoDetectorPub) StdoutLine: {'line': b'running egg_info\n'}
+[15.920500] (ArucoDetectorPub) StdoutLine: {'line': b'creating ArucoDetectorPub.egg-info\n'}
+[15.921341] (ArucoDetectorPub) StdoutLine: {'line': b'writing ArucoDetectorPub.egg-info/PKG-INFO\n'}
+[15.923572] (ArucoDetectorPub) StdoutLine: {'line': b'writing dependency_links to ArucoDetectorPub.egg-info/dependency_links.txt\n'}
+[15.925772] (ArucoDetectorPub) StdoutLine: {'line': b'writing entry points to ArucoDetectorPub.egg-info/entry_points.txt\n'}
+[15.928069] (ArucoDetectorPub) StdoutLine: {'line': b'writing requirements to ArucoDetectorPub.egg-info/requires.txt\n'}
+[15.929361] (ArucoDetectorPub) StdoutLine: {'line': b'writing top-level names to ArucoDetectorPub.egg-info/top_level.txt\n'}
+[15.931142] (ArucoDetectorPub) StdoutLine: {'line': b"writing manifest file 'ArucoDetectorPub.egg-info/SOURCES.txt'\n"}
+[15.942113] (ArucoDetectorPub) StdoutLine: {'line': b"reading manifest file 'ArucoDetectorPub.egg-info/SOURCES.txt'\n"}
+[15.948007] (ArucoDetectorPub) StdoutLine: {'line': b"writing manifest file 'ArucoDetectorPub.egg-info/SOURCES.txt'\n"}
+[15.956540] (ArucoDetectorPub) StdoutLine: {'line': b'running build_ext\n'}
+[15.959013] (ArucoDetectorPub) StdoutLine: {'line': b'Creating /home/ns/ros2_ws/install/ArucoDetectorPub/lib/python3.10/site-packages/ArucoDetectorPub.egg-link (link to .)\n'}
+[15.965484] (ArucoDetectorPub) StdoutLine: {'line': b'\n'}
+[15.966227] (ArucoDetectorPub) StdoutLine: {'line': b'Installed /home/ns/ros2_ws/build/ArucoDetectorPub\n'}
+[15.966944] (ArucoDetectorPub) StdoutLine: {'line': b'running install_data\n'}
+[15.967660] (ArucoDetectorPub) StdoutLine: {'line': b'creating /home/ns/ros2_ws/install/ArucoDetectorPub/share/ament_index\n'}
+[15.968253] (ArucoDetectorPub) StdoutLine: {'line': b'creating /home/ns/ros2_ws/install/ArucoDetectorPub/share/ament_index/resource_index\n'}
+[15.968941] (ArucoDetectorPub) StdoutLine: {'line': b'creating /home/ns/ros2_ws/install/ArucoDetectorPub/share/ament_index/resource_index/packages\n'}
+[15.969851] (ArucoDetectorPub) StdoutLine: {'line': b'copying resource/ArucoDetectorPub -> /home/ns/ros2_ws/install/ArucoDetectorPub/share/ament_index/resource_index/packages\n'}
+[15.971415] (ArucoDetectorPub) StdoutLine: {'line': b'copying package.xml -> /home/ns/ros2_ws/install/ArucoDetectorPub/share/ArucoDetectorPub\n'}
+[15.972245] (-) TimerEvent: {}
+[16.073481] (-) TimerEvent: {}
+[16.174753] (-) TimerEvent: {}
+[16.255438] (ArucoDetectorPub) CommandEnded: {'returncode': 0}
+[16.268979] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[16.275441] (-) TimerEvent: {}
+[16.378554] (-) TimerEvent: {}
+[16.401516] (my_realsense_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[16.410917] (my_realsense_publisher) StdoutLine: {'line': b'creating my_realsense_publisher.egg-info\n'}
+[16.411594] (my_realsense_publisher) StdoutLine: {'line': b'writing my_realsense_publisher.egg-info/PKG-INFO\n'}
+[16.412104] (my_realsense_publisher) StdoutLine: {'line': b'writing dependency_links to my_realsense_publisher.egg-info/dependency_links.txt\n'}
+[16.412641] (my_realsense_publisher) StdoutLine: {'line': b'writing entry points to my_realsense_publisher.egg-info/entry_points.txt\n'}
+[16.413248] (my_realsense_publisher) StdoutLine: {'line': b'writing requirements to my_realsense_publisher.egg-info/requires.txt\n'}
+[16.413762] (my_realsense_publisher) StdoutLine: {'line': b'writing top-level names to my_realsense_publisher.egg-info/top_level.txt\n'}
+[16.414437] (my_realsense_publisher) StdoutLine: {'line': b"writing manifest file 'my_realsense_publisher.egg-info/SOURCES.txt'\n"}
+[16.420229] (my_realsense_publisher) StdoutLine: {'line': b"reading manifest file 'my_realsense_publisher.egg-info/SOURCES.txt'\n"}
+[16.427766] (my_realsense_publisher) StdoutLine: {'line': b"writing manifest file 'my_realsense_publisher.egg-info/SOURCES.txt'\n"}
+[16.437823] (my_realsense_publisher) StdoutLine: {'line': b'running build_ext\n'}
+[16.440264] (my_realsense_publisher) StdoutLine: {'line': b'Creating /home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages/my-realsense-publisher.egg-link (link to .)\n'}
+[16.447412] (my_realsense_publisher) StdoutLine: {'line': b'\n'}
+[16.448446] (my_realsense_publisher) StdoutLine: {'line': b'Installed /home/ns/ros2_ws/build/my_realsense_publisher\n'}
+[16.449894] (my_realsense_publisher) StdoutLine: {'line': b'running install_data\n'}
+[16.450707] (my_realsense_publisher) StdoutLine: {'line': b'creating /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index\n'}
+[16.451779] (my_realsense_publisher) StdoutLine: {'line': b'creating /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index/resource_index\n'}
+[16.454214] (my_realsense_publisher) StdoutLine: {'line': b'creating /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index/resource_index/packages\n'}
+[16.455278] (my_realsense_publisher) StdoutLine: {'line': b'copying resource/my_realsense_publisher -> /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index/resource_index/packages\n'}
+[16.455952] (my_realsense_publisher) StdoutLine: {'line': b'copying package.xml -> /home/ns/ros2_ws/install/my_realsense_publisher/share/my_realsense_publisher\n'}
+[16.472646] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[16.474691] (py_pubsub) StdoutLine: {'line': b'creating py_pubsub.egg-info\n'}
+[16.476655] (py_pubsub) StdoutLine: {'line': b'writing py_pubsub.egg-info/PKG-INFO\n'}
+[16.481318] (-) TimerEvent: {}
+[16.485000] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to py_pubsub.egg-info/dependency_links.txt\n'}
+[16.495314] (py_pubsub) StdoutLine: {'line': b'writing entry points to py_pubsub.egg-info/entry_points.txt\n'}
+[16.500760] (py_pubsub) StdoutLine: {'line': b'writing requirements to py_pubsub.egg-info/requires.txt\n'}
+[16.502780] (py_pubsub) StdoutLine: {'line': b'writing top-level names to py_pubsub.egg-info/top_level.txt\n'}
+[16.504115] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[16.509567] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[16.525026] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[16.553937] (py_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[16.555689] (py_pubsub) StdoutLine: {'line': b'Creating /home/ns/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)\n'}
+[16.567055] (py_pubsub) StdoutLine: {'line': b'\n'}
+[16.569811] (py_pubsub) StdoutLine: {'line': b'Installed /home/ns/ros2_ws/build/py_pubsub\n'}
+[16.571763] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[16.572815] (py_pubsub) StdoutLine: {'line': b'creating /home/ns/ros2_ws/install/py_pubsub/share/ament_index\n'}
+[16.573708] (py_pubsub) StdoutLine: {'line': b'creating /home/ns/ros2_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[16.576363] (py_pubsub) StdoutLine: {'line': b'creating /home/ns/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[16.578971] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/ns/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[16.587386] (-) TimerEvent: {}
+[16.604832] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/ns/ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[16.688175] (-) TimerEvent: {}
+[16.782526] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[16.788589] (-) TimerEvent: {}
+[16.890068] (-) TimerEvent: {}
+[16.993819] (-) TimerEvent: {}
+[17.096551] (-) TimerEvent: {}
+[17.198573] (-) TimerEvent: {}
+[17.200662] (ArucoDetectorPub) JobEnded: {'identifier': 'ArucoDetectorPub', 'rc': 0}
+[17.213231] (py_pubsub) CommandEnded: {'returncode': 0}
+[17.298744] (-) TimerEvent: {}
+[17.392844] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[17.399499] (-) TimerEvent: {}
+[17.426539] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[17.499685] (-) TimerEvent: {}
+[17.601159] (-) TimerEvent: {}
+[17.703430] (-) TimerEvent: {}
+[17.735279] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[17.740100] (my_realsense_publisher) CommandEnded: {'returncode': 0}
+[17.803680] (-) TimerEvent: {}
+[17.904780] (-) TimerEvent: {}
+[18.006541] (-) TimerEvent: {}
+[18.108080] (-) TimerEvent: {}
+[18.211762] (-) TimerEvent: {}
+[18.245409] (my_realsense_publisher) JobEnded: {'identifier': 'my_realsense_publisher', 'rc': 0}
+[18.289925] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[18.311996] (-) TimerEvent: {}
+[18.412692] (-) TimerEvent: {}
+[18.513403] (-) TimerEvent: {}
+[18.613277] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[18.613906] (-) TimerEvent: {}
+[18.714564] (-) TimerEvent: {}
+[18.815318] (-) TimerEvent: {}
+[18.916043] (-) TimerEvent: {}
+[19.016847] (-) TimerEvent: {}
+[19.117590] (-) TimerEvent: {}
+[19.156037] (raspimouse_ros2_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.217785] (-) TimerEvent: {}
+[19.259941] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[19.317986] (-) TimerEvent: {}
+[19.418874] (-) TimerEvent: {}
+[19.519748] (-) TimerEvent: {}
+[19.620754] (-) TimerEvent: {}
+[19.719661] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[19.720937] (-) TimerEvent: {}
+[19.721856] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[19.821227] (-) TimerEvent: {}
+[19.922378] (-) TimerEvent: {}
+[20.023598] (-) TimerEvent: {}
+[20.125347] (-) TimerEvent: {}
+[20.132735] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[20.138462] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[20.225582] (-) TimerEvent: {}
+[20.326724] (-) TimerEvent: {}
+[20.427834] (-) TimerEvent: {}
+[20.528632] (-) TimerEvent: {}
+[20.629395] (-) TimerEvent: {}
+[20.730204] (-) TimerEvent: {}
+[20.831041] (-) TimerEvent: {}
+[20.931839] (-) TimerEvent: {}
+[21.032600] (-) TimerEvent: {}
+[21.056390] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[21.132818] (-) TimerEvent: {}
+[21.233541] (-) TimerEvent: {}
+[21.334264] (-) TimerEvent: {}
+[21.435001] (-) TimerEvent: {}
+[21.535792] (-) TimerEvent: {}
+[21.539053] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[21.635978] (-) TimerEvent: {}
+[21.736803] (-) TimerEvent: {}
+[21.820239] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[21.836999] (-) TimerEvent: {}
+[21.937853] (-) TimerEvent: {}
+[21.942001] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[22.038129] (-) TimerEvent: {}
+[22.138982] (-) TimerEvent: {}
+[22.240775] (-) TimerEvent: {}
+[22.342159] (-) TimerEvent: {}
+[22.445817] (-) TimerEvent: {}
+[22.546644] (-) TimerEvent: {}
+[22.647401] (-) TimerEvent: {}
+[22.656960] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[22.747601] (-) TimerEvent: {}
+[22.848315] (-) TimerEvent: {}
+[22.864201] (raspimouse_ros2_examples) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (find_package):\n'}
+[22.865032] (raspimouse_ros2_examples) StderrLine: {'line': b'  By not providing "Findraspimouse_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[22.865442] (raspimouse_ros2_examples) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[22.865828] (raspimouse_ros2_examples) StderrLine: {'line': b'  "raspimouse_msgs", but CMake did not find one.\n'}
+[22.866428] (raspimouse_ros2_examples) StderrLine: {'line': b'\n'}
+[22.866939] (raspimouse_ros2_examples) StderrLine: {'line': b'  Could not find a package configuration file provided by "raspimouse_msgs"\n'}
+[22.867450] (raspimouse_ros2_examples) StderrLine: {'line': b'  with any of the following names:\n'}
+[22.868012] (raspimouse_ros2_examples) StderrLine: {'line': b'\n'}
+[22.868676] (raspimouse_ros2_examples) StderrLine: {'line': b'    raspimouse_msgsConfig.cmake\n'}
+[22.869806] (raspimouse_ros2_examples) StderrLine: {'line': b'    raspimouse_msgs-config.cmake\n'}
+[22.870746] (raspimouse_ros2_examples) StderrLine: {'line': b'\n'}
+[22.871410] (raspimouse_ros2_examples) StderrLine: {'line': b'  Add the installation prefix of "raspimouse_msgs" to CMAKE_PREFIX_PATH or\n'}
+[22.872025] (raspimouse_ros2_examples) StderrLine: {'line': b'  set "raspimouse_msgs_DIR" to a directory containing one of the above files.\n'}
+[22.872586] (raspimouse_ros2_examples) StderrLine: {'line': b'  If "raspimouse_msgs" provides a separate development package or SDK, be\n'}
+[22.873368] (raspimouse_ros2_examples) StderrLine: {'line': b'  sure it has been installed.\n'}
+[22.873968] (raspimouse_ros2_examples) StderrLine: {'line': b'\n'}
+[22.874692] (raspimouse_ros2_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[22.875835] (raspimouse_ros2_examples) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[22.877452] (raspimouse_ros2_examples) StdoutLine: {'line': b'See also "/home/ns/ros2_ws/build/raspimouse_ros2_examples/CMakeFiles/CMakeOutput.log".\n'}
+[22.918089] (raspimouse_ros2_examples) CommandEnded: {'returncode': 1}
+[22.948556] (-) TimerEvent: {}
+[23.049389] (-) TimerEvent: {}
+[23.150782] (-) TimerEvent: {}
+[23.192603] (raspimouse_ros2_examples) JobEnded: {'identifier': 'raspimouse_ros2_examples', 'rc': 1}
+[23.206246] (-) EventReactorShutdown: {}

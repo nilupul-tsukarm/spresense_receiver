@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating my_realsense_publisher.egg-info
+writing my_realsense_publisher.egg-info/PKG-INFO
+writing dependency_links to my_realsense_publisher.egg-info/dependency_links.txt
+writing entry points to my_realsense_publisher.egg-info/entry_points.txt
+writing requirements to my_realsense_publisher.egg-info/requires.txt
+writing top-level names to my_realsense_publisher.egg-info/top_level.txt
+writing manifest file 'my_realsense_publisher.egg-info/SOURCES.txt'
+reading manifest file 'my_realsense_publisher.egg-info/SOURCES.txt'
+writing manifest file 'my_realsense_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages/my-realsense-publisher.egg-link (link to .)
+
+Installed /home/ns/ros2_ws/build/my_realsense_publisher
+running install_data
+creating /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index
+creating /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index/resource_index
+creating /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index/resource_index/packages
+copying resource/my_realsense_publisher -> /home/ns/ros2_ws/install/my_realsense_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/ns/ros2_ws/install/my_realsense_publisher/share/my_realsense_publisher

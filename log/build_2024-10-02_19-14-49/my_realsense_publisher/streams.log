@@ -1,0 +1,38 @@
+[10.166s] Invoking command in '/home/ns/ros2_ws/build/my_realsense_publisher': PYTHONPATH=/home/ns/ros2_ws/build/my_realsense_publisher/prefix_override:/home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ns/ros2_ws/build/my_realsense_publisher/build
+[12.301s] running develop
+[12.305s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[12.306s]   warnings.warn(
+[12.314s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.315s]   warnings.warn(
+[14.051s] Removing /home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages/my-realsense-publisher.egg-link (link to .)
+[14.261s] Invoked command in '/home/ns/ros2_ws/build/my_realsense_publisher' returned '0': PYTHONPATH=/home/ns/ros2_ws/build/my_realsense_publisher/prefix_override:/home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ns/ros2_ws/build/my_realsense_publisher/build
+[14.263s] Invoking command in '/home/ns/ros2_ws/src/my_realsense_publisher': PYTHONPATH=/home/ns/ros2_ws/build/my_realsense_publisher/prefix_override:/home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_realsense_publisher build --build-base /home/ns/ros2_ws/build/my_realsense_publisher/build install --record /home/ns/ros2_ws/build/my_realsense_publisher/install.log --single-version-externally-managed
+[16.160s] running egg_info
+[16.165s] writing ../../build/my_realsense_publisher/my_realsense_publisher.egg-info/PKG-INFO
+[16.167s] writing dependency_links to ../../build/my_realsense_publisher/my_realsense_publisher.egg-info/dependency_links.txt
+[16.169s] writing entry points to ../../build/my_realsense_publisher/my_realsense_publisher.egg-info/entry_points.txt
+[16.173s] writing requirements to ../../build/my_realsense_publisher/my_realsense_publisher.egg-info/requires.txt
+[16.174s] writing top-level names to ../../build/my_realsense_publisher/my_realsense_publisher.egg-info/top_level.txt
+[16.185s] reading manifest file '../../build/my_realsense_publisher/my_realsense_publisher.egg-info/SOURCES.txt'
+[16.193s] writing manifest file '../../build/my_realsense_publisher/my_realsense_publisher.egg-info/SOURCES.txt'
+[16.194s] running build
+[16.196s] running build_py
+[16.197s] creating /home/ns/ros2_ws/build/my_realsense_publisher/build
+[16.198s] creating /home/ns/ros2_ws/build/my_realsense_publisher/build/lib
+[16.200s] creating /home/ns/ros2_ws/build/my_realsense_publisher/build/lib/my_realsense_publisher
+[16.201s] copying my_realsense_publisher/realsense_publisher_node.py -> /home/ns/ros2_ws/build/my_realsense_publisher/build/lib/my_realsense_publisher
+[16.203s] copying my_realsense_publisher/__init__.py -> /home/ns/ros2_ws/build/my_realsense_publisher/build/lib/my_realsense_publisher
+[16.205s] running install
+[16.206s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[16.208s]   warnings.warn(
+[16.212s] running install_lib
+[16.213s] creating /home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages/my_realsense_publisher
+[16.215s] copying /home/ns/ros2_ws/build/my_realsense_publisher/build/lib/my_realsense_publisher/realsense_publisher_node.py -> /home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages/my_realsense_publisher
+[16.216s] copying /home/ns/ros2_ws/build/my_realsense_publisher/build/lib/my_realsense_publisher/__init__.py -> /home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages/my_realsense_publisher
+[16.218s] byte-compiling /home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages/my_realsense_publisher/realsense_publisher_node.py to realsense_publisher_node.cpython-310.pyc
+[16.224s] byte-compiling /home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages/my_realsense_publisher/__init__.py to __init__.cpython-310.pyc
+[16.227s] running install_data
+[16.244s] running install_egg_info
+[16.249s] Copying ../../build/my_realsense_publisher/my_realsense_publisher.egg-info to /home/ns/ros2_ws/install/my_realsense_publisher/lib/python3.10/site-packages/my_realsense_publisher-0.0.0-py3.10.egg-info
+[16.268s] running install_scripts
+[16.461s] writing list of installed files to '/home/ns/ros2_ws/build/my_realsense_publisher/install.log'

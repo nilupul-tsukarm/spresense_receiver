@@ -1,0 +1,6 @@
+Invoking command in '/home/ns/ros2_ws/build/ros2_pca9685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ns/ros2_ws/src/ros2_pca9685 -DCMAKE_INSTALL_PREFIX=/home/ns/ros2_ws/install/ros2_pca9685
+Invoked command in '/home/ns/ros2_ws/build/ros2_pca9685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ns/ros2_ws/src/ros2_pca9685 -DCMAKE_INSTALL_PREFIX=/home/ns/ros2_ws/install/ros2_pca9685
+Invoking command in '/home/ns/ros2_ws/build/ros2_pca9685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ns/ros2_ws/build/ros2_pca9685 -- -j4 -l4
+Invoked command in '/home/ns/ros2_ws/build/ros2_pca9685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ns/ros2_ws/build/ros2_pca9685 -- -j4 -l4
+Invoking command in '/home/ns/ros2_ws/build/ros2_pca9685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ns/ros2_ws/build/ros2_pca9685
+Invoked command in '/home/ns/ros2_ws/build/ros2_pca9685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ns/ros2_ws/build/ros2_pca9685

@@ -1,0 +1,39 @@
+[6.635s] Invoking command in '/home/ns/ros2_ws/src/spresense_receiver': PYTHONPATH=/home/ns/ros2_ws/build/spresense_receiver/prefix_override:/home/ns/ros2_ws/install/spresense_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/spresense_receiver build --build-base /home/ns/ros2_ws/build/spresense_receiver/build install --record /home/ns/ros2_ws/build/spresense_receiver/install.log --single-version-externally-managed
+[8.711s] running egg_info
+[8.722s] creating ../../build/spresense_receiver/spresense_receiver.egg-info
+[8.750s] writing ../../build/spresense_receiver/spresense_receiver.egg-info/PKG-INFO
+[8.755s] writing dependency_links to ../../build/spresense_receiver/spresense_receiver.egg-info/dependency_links.txt
+[8.766s] writing entry points to ../../build/spresense_receiver/spresense_receiver.egg-info/entry_points.txt
+[8.769s] writing requirements to ../../build/spresense_receiver/spresense_receiver.egg-info/requires.txt
+[8.772s] writing top-level names to ../../build/spresense_receiver/spresense_receiver.egg-info/top_level.txt
+[8.777s] writing manifest file '../../build/spresense_receiver/spresense_receiver.egg-info/SOURCES.txt'
+[8.791s] reading manifest file '../../build/spresense_receiver/spresense_receiver.egg-info/SOURCES.txt'
+[8.792s] writing manifest file '../../build/spresense_receiver/spresense_receiver.egg-info/SOURCES.txt'
+[8.792s] running build
+[8.793s] running build_py
+[8.794s] creating /home/ns/ros2_ws/build/spresense_receiver/build
+[8.794s] creating /home/ns/ros2_ws/build/spresense_receiver/build/lib
+[8.795s] creating /home/ns/ros2_ws/build/spresense_receiver/build/lib/spresense_receiver
+[8.795s] copying spresense_receiver/spresense_receiver.py -> /home/ns/ros2_ws/build/spresense_receiver/build/lib/spresense_receiver
+[8.796s] copying spresense_receiver/__init__.py -> /home/ns/ros2_ws/build/spresense_receiver/build/lib/spresense_receiver
+[8.796s] running install
+[8.797s] running install_lib
+[8.797s] creating /home/ns/ros2_ws/install/spresense_receiver/lib/python3.10/site-packages/spresense_receiver
+[8.798s] copying /home/ns/ros2_ws/build/spresense_receiver/build/lib/spresense_receiver/spresense_receiver.py -> /home/ns/ros2_ws/install/spresense_receiver/lib/python3.10/site-packages/spresense_receiver
+[8.799s] copying /home/ns/ros2_ws/build/spresense_receiver/build/lib/spresense_receiver/__init__.py -> /home/ns/ros2_ws/install/spresense_receiver/lib/python3.10/site-packages/spresense_receiver
+[8.800s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.800s]   warnings.warn(
+[8.816s] byte-compiling /home/ns/ros2_ws/install/spresense_receiver/lib/python3.10/site-packages/spresense_receiver/spresense_receiver.py to spresense_receiver.cpython-310.pyc
+[8.817s] byte-compiling /home/ns/ros2_ws/install/spresense_receiver/lib/python3.10/site-packages/spresense_receiver/__init__.py to __init__.cpython-310.pyc
+[8.818s] running install_data
+[8.818s] creating /home/ns/ros2_ws/install/spresense_receiver/share/ament_index
+[8.823s] creating /home/ns/ros2_ws/install/spresense_receiver/share/ament_index/resource_index
+[8.824s] creating /home/ns/ros2_ws/install/spresense_receiver/share/ament_index/resource_index/packages
+[8.824s] copying resource/spresense_receiver -> /home/ns/ros2_ws/install/spresense_receiver/share/ament_index/resource_index/packages
+[8.825s] copying package.xml -> /home/ns/ros2_ws/install/spresense_receiver/share/spresense_receiver
+[8.826s] running install_egg_info
+[8.843s] Copying ../../build/spresense_receiver/spresense_receiver.egg-info to /home/ns/ros2_ws/install/spresense_receiver/lib/python3.10/site-packages/spresense_receiver-0.0.0-py3.10.egg-info
+[8.865s] running install_scripts
+[8.970s] Installing spresense_receiver script to /home/ns/ros2_ws/install/spresense_receiver/lib/spresense_receiver
+[8.976s] writing list of installed files to '/home/ns/ros2_ws/build/spresense_receiver/install.log'
+[9.163s] Invoked command in '/home/ns/ros2_ws/src/spresense_receiver' returned '0': PYTHONPATH=/home/ns/ros2_ws/build/spresense_receiver/prefix_override:/home/ns/ros2_ws/install/spresense_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/spresense_receiver build --build-base /home/ns/ros2_ws/build/spresense_receiver/build install --record /home/ns/ros2_ws/build/spresense_receiver/install.log --single-version-externally-managed

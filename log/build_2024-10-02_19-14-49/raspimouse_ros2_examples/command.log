@@ -1,0 +1,2 @@
+Invoking command in '/home/ns/ros2_ws/build/raspimouse_ros2_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ns/ros2_ws/src/raspimouse_ros2_examples -DCMAKE_INSTALL_PREFIX=/home/ns/ros2_ws/install/raspimouse_ros2_examples
+Invoked command in '/home/ns/ros2_ws/build/raspimouse_ros2_examples' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ns/ros2_ws/src/raspimouse_ros2_examples -DCMAKE_INSTALL_PREFIX=/home/ns/ros2_ws/install/raspimouse_ros2_examples
